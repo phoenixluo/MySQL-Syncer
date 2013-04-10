@@ -2,13 +2,13 @@
 # this is a master config file
 
 # execute user group
-user terry terry
+user server server
 
 # pid file
 pid /tmp/rs_master.pid
 
 # daemon
-daemon 0
+daemon 1
 
 # log path
 log /tmp/rs_master.log
@@ -50,7 +50,7 @@ iobuf.size 10485760
 #iobuf.size 1024000
 
 # current mysql server_id
-server.id 1
+server.id 123
 
 # max dump thread 
 dump.thread 36

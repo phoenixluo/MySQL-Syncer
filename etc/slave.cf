@@ -2,13 +2,13 @@
 # this is a master config file
 
 # user group
-user terry terry
+user root root
 
 # pid
 pid /tmp/rs_slave.pid
 
 # daemon
-daemon 0
+daemon 1
 
 # log path
 log /tmp/rs_slave.log
@@ -27,7 +27,7 @@ listen.addr 127.0.0.1
 listen.port 1919
 
 # slave.info path
-slave.info /tmp/slave.info
+slave.info /home/server/MySQL-Syncer/etc/slave.info
 
 # redis addr
 redis.addr 127.0.0.1
