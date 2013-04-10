@@ -243,8 +243,8 @@ MySQL Syncer Linux操作系统下是一套异构数据源复制的框架，基�
 		# filter tables
 		filter.tables test.test 
 		添加新表
-		# filter tables
-		filter.tables test.test test.user
+		# filter tables 多个表之间用逗号隔开，逗号前后不能有空格。
+		filter.tables test.test,test.user
 
 1.  关闭slave服务，重新编译slave服务,启动slave服务
 
